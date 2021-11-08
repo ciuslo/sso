@@ -10,8 +10,11 @@ Secure open api with token access
 
 How to generate token? cek database import data
 
-here example :
+https://docs.spring.io/spring-security/site/docs/5.2.12.RELEASE/reference/html/oauth2.html
+
+here example use refresh token:
 ![image](https://user-images.githubusercontent.com/50345887/140695157-7f9cca1b-db6d-4ba4-b00d-d65c64d62cf7.png)
+![image](https://user-images.githubusercontent.com/50345887/140695450-1c429832-e15d-446b-92b6-eee3f68efb27.png)
 
 POST /oauth/token HTTP/1.1
 Host: localhost:8082
