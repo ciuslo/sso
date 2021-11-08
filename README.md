@@ -9,14 +9,16 @@ Secure open api with token access
 ![image](https://user-images.githubusercontent.com/50345887/140694150-6934ab2a-fc92-4bab-8599-a713ac582967.png)
 
 How to generate token? cek database import data
+
 here example :
+![image](https://user-images.githubusercontent.com/50345887/140695157-7f9cca1b-db6d-4ba4-b00d-d65c64d62cf7.png)
+
 POST /oauth/token HTTP/1.1
 Host: localhost:8082
 Authorization: Basic dGVzOnRlcw==
 Cache-Control: no-cache
 Postman-Token: 94601e5a-f28c-8b82-9d25-6441a352fcb3
 Content-Type: application/x-www-form-urlencoded
-
 grant_type=refresh_token&client_id=tes&refresh_token=DVtjC8YO4Og49XzzlDyIR9ZI4ac
 
 
